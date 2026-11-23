@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jacob Manhardt · IT support and networking</title>
+    <meta
+      name="description"
+      content="Jacob Manhardt, entry-level IT support and networking in Quakertown, PA. TCP/IP, Linux, Windows and Microsoft 365, and monitoring. Open to the Syracuse, NY area and remote, including contract and temp."
+    />
+    <meta name="theme-color" content="#1c1916" />
+    <meta property="og:title" content="Jacob Manhardt · IT support and networking" />
+    <meta
+      property="og:description"
+      content="Entry-level IT support and networking. Quakertown, PA. Open to the Syracuse, NY area and remote, including contract and temp."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap bar">
+        <a class="name" href="#top">Jacob Manhardt</a>
+        <p class="bar-links">
+          <a href="mailto:jacob@jemanhardt.dev">jacob@jemanhardt.dev</a>
+          <a href="https://github.com/manhardt23">GitHub</a>
+        </p>
+      </div>
+      <nav class="wrap nav" aria-label="Sections">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero wrap" id="top" aria-labelledby="headline">
+        <div class="hero-copy">
+          <p class="kicker">Entry-level IT support and networking</p>
+          <h1 id="headline">
+            IT support and networking, with a software developer's toolkit.
+          </h1>
+          <p class="deck">
+            I troubleshoot networks and the machines on them: TCP/IP, DNS, DHCP,
+            and VLANs, Linux, Windows and Microsoft 365, and monitoring. When
+            the same fix comes up twice, I script it.
+          </p>
+        </div>
+
+        <aside class="snapshot" aria-label="Role snapshot">
+          <dl>
+            <div>
+              <dt>Looking for</dt>
+              <dd>
+                Help desk, IT support, desktop and service desk, NOC, junior
+                sysadmin, and junior network engineer
+              </dd>
+            </div>
+            <div>
+              <dt>Level</dt>
+              <dd>Entry level, including contract and temp</dd>
+            </div>
+            <div>
+              <dt>Based in</dt>
+              <dd>Quakertown, PA</dd>
+            </div>
+            <div>
+              <dt>Open to</dt>
+              <dd>The Syracuse, NY area and remote</dd>
+            </div>
+            <div>
+              <dt>CompTIA Network+</dt>
+              <dd>In progress, expected November 2026</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="wrap section" id="about" aria-labelledby="about-heading">
+        <h2 id="about-heading">About</h2>
+        <div class="about">
+          <p>
+            I'm looking for entry-level IT work: take the ticket, find the
+            fault, and explain the fix in plain language. I have a Bachelor of
+            Science, Computer Science from Syracuse University (May 2026). What
+            applies here is the networking coursework, Linux, and a habit of
+            automating steps that repeat.
+          </p>
+          <p>
+            I can show systems I run myself. I administer a Linux home server,
+            monitor it, and run network-wide DNS filtering. I've also deployed
+            my own tools on AWS with Docker. Python, Bash, and SQL are how I
+            automate checks, deploys, and the chores that come back every day.
+          </p>
+          <p>
+            I also help family and friends when a computer or home network
+            breaks. Six years as a shift leader at Jersey Mike's covers the
+            customer-facing half: training new staff, opening and closing, and
+            staying steady when people are waiting.
+          </p>
+        </div>
+      </section>
+
+      <section class="wrap section" id="skills" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Skills</h2>
+        <div class="skill-grid">
+          <article class="skill">
+            <h3>Networking &amp; Systems</h3>
+            <ul>
+              <li>TCP/IP, subnetting, DNS, DHCP, and VLANs</li>
+              <li>Switch and router configuration</li>
+              <li>ICMP and TCP troubleshooting</li>
+              <li>Linux server administration, SSH, and remote administration</li>
+              <li>Prometheus, Grafana, node_exporter, and uptime tracking</li>
+              <li>Slack alerting</li>
+              <li>Tailscale and WireGuard VPN</li>
+              <li>Pi-hole network-wide DNS filtering</li>
+            </ul>
+          </article>
+
+          <article class="skill">
+            <h3>Support &amp; Tools</h3>
+            <ul>
+              <li>Windows and Microsoft 365</li>
+              <li>Ticketing systems</li>
+              <li>User training and onboarding</li>
+              <li>Technical documentation</li>
+              <li>Customer service in a high-volume setting</li>
+            </ul>
+          </article>
+
+          <article class="skill">
+            <h3>Cloud &amp; Automation</h3>
+            <ul>
+              <li>AWS: EC2, ECR, S3, IAM, and security groups</li>
+              <li>Docker and Docker Compose</li>
+              <li>Container registries (GHCR and ECR)</li>
+              <li>GitHub Actions CI/CD</li>
+            </ul>
+          </article>
+
+          <article class="skill">
+            <h3>Programming</h3>
+            <ul>
+              <li>Python, Bash, and SQL (PostgreSQL, SQLite, T-SQL)</li>
+              <li>Git</li>
+            </ul>
+            <p class="note">I automate the repetitive stuff.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="wrap section" id="projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Projects</h2>
+
+        <article class="entry">
+          <p class="when">
+            <time datetime="2026-09">September 2026</time>
+            <span>– Present</span>
+          </p>
+          <div class="entry-body">
+            <h3>Home lab network monitor</h3>
+            <p class="stack">
+              Python, Linux, Docker, SQLite, Slack, VPN, Prometheus, Grafana
+            </p>
+            <p class="frame">
+              Network monitoring and observability for a home lab I administer.
+            </p>
+            <ul>
+              <li>
+                Run ICMP ping and TCP port checks every 5 seconds against the
+                home server and an AWS EC2 instance over a Tailscale/WireGuard
+                VPN, and classify failures as refused, timeout, DNS, or
+                unreachable.
+              </li>
+              <li>
+                Alert in Slack after 3 consecutive failed checks, send a
+                recovery notice with total downtime, and deliver a daily uptime
+                summary.
+              </li>
+              <li>
+                Log check history to SQLite with 30-day retention and a CLI
+                uptime report.
+              </li>
+              <li>
+                Monitor every Docker container via the Docker SDK, and watch
+                host CPU, memory, and disk with Prometheus, node_exporter, and
+                Grafana.
+              </li>
+              <li>Administer Pi-hole for network-wide DNS filtering.</li>
+              <li>
+                Deploy with Docker Compose on Linux using host networking, a
+                read-only Docker socket, and log rotation, with secrets kept
+                out of the image.
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="entry">
+          <p class="when">
+            <time datetime="2026-01">January 2026</time>
+            <span>– Present</span>
+          </p>
+          <div class="entry-body">
+            <h3>Email Application Tracker API</h3>
+            <p class="stack">
+              Python, AWS EC2, Docker, PostgreSQL, Linux, GitHub Actions
+            </p>
+            <p class="frame">
+              A tool I deployed and operate myself. It shows I can run a
+              service on AWS and Linux, ship it in Docker, and keep a deploy
+              behind tests.
+            </p>
+            <ul>
+              <li>
+                Deploy and operate a production web service on an AWS EC2 Linux
+                host (live dashboard), shipping multi-stage Docker images
+                through ECR with IAM-scoped access.
+              </li>
+              <li>
+                Run a cron-triggered IMAP worker with defined exit codes and
+                retry logic, so a failure is detectable and can recover without
+                someone stepping in.
+              </li>
+              <li>
+                Gate every deploy in GitHub Actions with linting plus 181 tests
+                at 81% coverage, and manage PostgreSQL with versioned Alembic
+                migrations.
+              </li>
+            </ul>
+            <p class="more">
+              <a href="https://github.com/manhardt23/Email-Application-Tracker-API"
+                >Source on GitHub</a
+              >
+            </p>
+          </div>
+        </article>
+
+        <article class="entry">
+          <p class="when">
+            <time datetime="2025-01">January 2025</time>
+            <span>– <time datetime="2025-09">September 2025</time></span>
+          </p>
+          <div class="entry-body">
+            <h3>Ticket to Ride route optimizer</h3>
+            <p class="stack">Python, NetworkX, Dijkstra's algorithm</p>
+            <p class="frame">
+              Shortest path across a weighted graph. The same kind of problem
+              link-state routing has to solve.
+            </p>
+            <ul>
+              <li>
+                Modeled 36 cities and weighted routes as a graph and applied
+                Dijkstra's shortest-path algorithm, the same approach used by
+                link-state routing protocols such as OSPF.
+              </li>
+              <li>
+                Pruned a search of about 30 million combinations with early
+                termination and cached results to JSON, cutting runtime from
+                about 2 minutes to under 100 ms.
+              </li>
+            </ul>
+            <p class="more">
+              <a href="https://github.com/manhardt23/Ticket-to-Ride-Route-Optimizer"
+                >Source on GitHub</a
+              >
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="wrap section" id="experience" aria-labelledby="experience-heading">
+        <h2 id="experience-heading">Experience</h2>
+        <article class="entry">
+          <p class="when">
+            <time datetime="2020-07">July 2020</time>
+            <span>– <time datetime="2026-05">May 2026</time></span>
+          </p>
+          <div class="entry-body">
+            <h3>Shift leader, Jersey Mike's</h3>
+            <p class="stack">Quakertown, PA</p>
+            <p class="frame">
+              Customer service under pressure: training new staff, opening and
+              closing, and calm problem-solving while the store was busy.
+            </p>
+            <ul>
+              <li>
+                Led a team of 6 during peak hours, maintaining 100% order
+                accuracy across 200+ daily transactions, and coordinated
+                closing procedures with a full cash reconciliation.
+              </li>
+              <li>
+                Trained 4+ new hires on POS systems and store procedures,
+                explaining technical workflows clearly to non-technical staff.
+              </li>
+              <li>
+                Resolved customer issues in a high-volume environment and
+                provided coverage across 2 locations for the district manager.
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
+
+      <section class="wrap section" id="education" aria-labelledby="education-heading">
+        <h2 id="education-heading">Education and certifications</h2>
+        <div class="edu-grid">
+          <article class="edu">
+            <h3>Bachelor of Science, Computer Science</h3>
+            <p class="stack">Syracuse University · Syracuse, NY</p>
+            <p>May 2026 · GPA 3.15</p>
+            <p class="course-label">Relevant coursework</p>
+            <ul>
+              <li>Data Networks: Basic Principles</li>
+              <li>Systems &amp; Network Programming</li>
+              <li>Database Management Systems</li>
+              <li>Artificial Intelligence</li>
+            </ul>
+          </article>
+          <article class="edu cert">
+            <h3>CompTIA Network+</h3>
+            <p class="status">In progress, expected November 2026</p>
+            <p class="frame">
+              Studying networking fundamentals, infrastructure, operations,
+              security, and troubleshooting.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="wrap section" id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <div class="contact">
+          <p>
+            Hiring for help desk, desktop or service desk, a NOC, junior
+            sysadmin, or junior network work. Entry level, contract, and temp
+            are all fine.
+          </p>
+          <p class="contact-email">
+            <a href="mailto:jacob@jemanhardt.dev">jacob@jemanhardt.dev</a>
+          </p>
+          <p>
+            <a href="https://github.com/manhardt23">github.com/manhardt23</a>
+          </p>
+          <p class="where">
+            Quakertown, PA · Also open to the Syracuse, NY area and remote
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          Jacob Manhardt · Quakertown, PA ·
+          <a href="mailto:jacob@jemanhardt.dev">jacob@jemanhardt.dev</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
