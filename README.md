@@ -11,7 +11,18 @@ npm run build
 npm run preview
 ```
 
-`npm run build` checks the published copy, then writes `dist/`. Preview serves that folder at http://127.0.0.1:4173.
+Build command: `npm run build`. It checks the published copy, then writes the output directory `dist/`. Preview serves that folder at http://127.0.0.1:4173.
+
+## Cloudflare Workers
+
+`wrangler.jsonc` names the Worker `jemanhardt-landing` and serves `dist/` as static assets. No routes and no custom domains. The Worker uses its free `*.workers.dev` address.
+
+```bash
+npm run build
+npx wrangler deploy --dry-run
+```
+
+Leave `jemanhardt.dev` and `www` off this Worker.
 
 ## Contact
 
