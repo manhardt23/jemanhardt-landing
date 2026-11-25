@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "jemanhardt-landing",
+  // Set this to today's date
+  "compatibility_date": "2026-11-25",
+  // Free *.workers.dev address. Do not add routes or custom domains.
+  "workers_dev": true,
+  "observability": {
+    "enabled": true,
+    "traces": {
+      "enabled": true
+    }
+  },
+  "assets": {
+    "directory": "./dist"
+  }
+}
